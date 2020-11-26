@@ -44,18 +44,11 @@ pipeline {
     stage("Initial Configuration") {
       steps {
         script {
-          //def files = findFiles(glob: '**/*.owl') echo "${files[0].name} ${files[0].path} ${files[0].directory} ${files[0].length} ${files[0].lastModified}"
           if (isUnix()) {
-            //TODO
-            //sh "'${mvnHome}/bin/mvn' -Dintegration-tests.skip=true -Dbuild.number=${targetVersion} clean package"
             echo "Unix"
             echo "${env.WORKSPACE}"
           } else {
-            //TODO
-            //bat(/"${mvnHome}\bin\mvn" -Dintegration-tests.skip=true clean package/)
-            //print pom.version
             print "Windows"
-            //sh('mkdir jhon')
             // -- Path Workspace
             echo "${env.WORKSPACE}"
 
@@ -78,35 +71,15 @@ pipeline {
     // ------------------------------------
     stage('Widoco'){
       steps{
-        script{
-         // new File("Ontology/").eachFileMatch(FileType.FILES, ~/^.*-.*?.owl$/, { println it.name })
-            //ONTOLOGY = sh(script: 'ls -l ${Ontology}/*.owl', returnStdout: true).split()
-         
+        script{  
           def exists = fileExists "widoco-${WIDOCO}-jar-with-dependencies.jar"
-          
           if (!exists) {
             sh "wget https://github.com/dgarijo/Widoco/releases/download/v${WIDOCO}/widoco-${WIDOCO}-jar-with-dependencies.jar"
           } else {
             echo "Building Widoco version ${WIDOCO}"
           }
-          //java -jar widoco-VERSION-jar-with-dependencies.jar [-ontFile file] or [-ontURI uri] [-outFolder folderName] [-confFile propertiesFile] or [-getOntologyMetadata] [-oops] [-rewriteAll] [-crossRef] [-saveConfig configOutFile] [-useCustomStyle] [-lang lang1-lang2] [-includeImportedOntologies] [-htaccess] [-webVowl] [-licensius] [-ignoreIndividuals] [-analytics analyticsCode] [-doNotDisplaySerializations][-displayDirectImportsOnly] [-rewriteBase rewriteBasePath] [-excludeIntroduction] [-uniteSections]
         }
-        //sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${ONTOLOGY[0]} -outFolder Documents  -oops -rewriteAll -lang en-es -webVowl -uniteSections"
-         sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${Ontology_path} -outFolder Documents  -oops -rewriteAll -lang en-es -webVowl -uniteSections"
-          //sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${} -outFolder doc  -oops -rewriteAll -lang en-es -webVowl -uniteSections"
-        
-        //git url: 'https://github.com/dgarijo/Widoco'
-        //sh('mvn install -DskipTests')
-        //script{
-        //  def matcher = readFile('pom.xml') =~ '<version>(.+)</version>'
-        //  if (matcher) {
-        //    VERSION = "${matcher[0][1]}"
-        //    echo "Building Widoco version ${VERSION}"
-        //  }
-        //}
-        //sh("mv jar/widoco-${VERSION}-jar-with-dependencies.jar .")
-        //sh ("java -jar widoco-1.4.13-jar-with-dependencies.jar -ontFile alo.owl -outFolder doc -confFile ./config/ontosoft.properties -rewriteAll -lang en;es") 
-        
+         sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${Ontology_path} -outFolder Documents  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
       }
     }
     // Parameters needed:
@@ -115,11 +88,8 @@ pipeline {
     // ------------------------------------
     stage('Oops!') {
       steps {
-        sh 'pwd'
-//        echo "Database engine is ${DB_ENGINE}"
-//        echo "DISABLE_AUTH is ${DISABLE_AUTH}"
-//        sh 'printenv'
-        //sh './widoco.sh'
+          //for this test it's integrated with widoco
+          //sh './oops.sh'
       }
     }
     // Parameters needed:
@@ -139,6 +109,9 @@ pipeline {
           }else{
              echo "Building AR2Tool version ${AR2TOOL}"
           }
+          	ar2dtool-0.1.jar
+          //java -jar ar2dtool.jar -i PathToInputRdfFile -o FileToOutputFile -t OutputFileType -c PathToConfFile -GENERATE_FLAGS [-d]
+          sh "java -jar ar2dtool-0.1.jar -i ${Ontology_path} -o ar2dtoolOutputFile"
         }
       }
     }
