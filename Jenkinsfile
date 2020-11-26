@@ -159,20 +159,6 @@ pipeline {
 }
 
 def ontologies() {
-  
-  //def foo = sh(script: 'ls -1 Ontology', returnStdout: true)
-  //println("*******"+foo+"**********")
-
-  sh '''#!/bin/bash
-        i=0
-        while read line
-        do
-            array[ $i ]="$line"        
-            (( i++ ))
-        done < <(ls -ls Ontology)
-
-        echo ${array[1]}
-         '''
   return ["openADRontology.owl", "empleo.owl","alo.owl"]
 }
 
