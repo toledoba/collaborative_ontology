@@ -162,7 +162,7 @@ def ontologies() {
   
   def foo = sh(script: 'ls -1 Ontology', returnStdout: true)
   //println(foo)
-  echo "*****${foo}"
+  echo  foo.getClass()
   return ["openADRontology.owl", "empleo.owl","alo.owl"]
 }
 
