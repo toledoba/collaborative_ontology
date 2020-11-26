@@ -1,1 +1,1 @@
-# collaborative_ontology
+# COLLABORATIVE ONTOLOGY MANAGEMENT
