@@ -62,7 +62,10 @@ pipeline {
         // -- Clean Workspace
         echo "Clean Workspace"
         //cleanWs()
-        
+        sh "wget https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl"
+        sh "wget https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl"
+        sh "wget https://raw.githubusercontent.com/ahmad88me/GSSO/master/gsso.owl"
+        sh "mv *.owl ${Ontology_dir} "
       }
     }
     // Parameters needed:
