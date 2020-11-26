@@ -61,9 +61,9 @@ pipeline {
         // -- Clean Workspace
         echo "Clean Workspace"
         
-        //cleanWs()
-        sh "wget -nc https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl -P ${Ontology_dir}"
-        sh "wget -nc https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl -P ${Ontology_dir}"
+        cleanWs()
+        //sh "wget -nc https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl -P ${Ontology_dir}"
+        //sh "wget -nc https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl -P ${Ontology_dir}"
         //sh "wget https://raw.githubusercontent.com/ahmad88me/GSSO/master/gsso.owl"
         //sh "mv *.owl ${Ontology_dir}/ "
         /*script{
@@ -159,6 +159,25 @@ pipeline {
 }
 
 def ontologies() {
-  return ["openADRontology.owl", "empleo.owl","alo.owl"]
+  //return ["openADRontology.owl", "empleo.owl","alo.owl"]
+  return ["alo.owl",
+"netex_accounting_version.xsd.rdf",
+"netex_address_support.xsd.rdf",
+"netex_availabilityCondition_support.xsd.rdf",
+"netex_availabilityCondition_version.xsd.rdf",
+"netex_country_support.xsd.rdf",
+"netex_dayType_propertiesOfDay.xsd.rdf",
+"netex_dayType_support.xsd.rdf",
+"netex_dayType_version.xsd.rdf",
+"netex_equipment_support.xsd.rdf",
+"netex_equipment_version.xsd.rdf",
+"netex_facility_support.xsd.rdf",
+"netex_facility_version.xsd.rdf",
+"netex_facilityUic_support.xsd.rdf",
+"netex_mode_support.xsd.rdf",
+"netex_mode_version.xsd.rdf",
+"netex_notice_support.xsd.rdf",
+"netex_notice_version.xsd.rdf",
+"netex_otherOrganisation_support.xsd.rdf"]
 }
 
