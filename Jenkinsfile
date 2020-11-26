@@ -62,8 +62,8 @@ pipeline {
         echo "Clean Workspace"
         
         //cleanWs()
-        sh "wget https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl"
-        sh "wget https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl"
+        sh "wget https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl -P ${Ontology_dir}"
+        sh "wget https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl -P ${Ontology_dir}"
         //sh "wget https://raw.githubusercontent.com/ahmad88me/GSSO/master/gsso.owl"
         //sh "mv *.owl ${Ontology_dir}/ "
         /*script{
@@ -91,7 +91,7 @@ pipeline {
         }
         script{
 
-            sh "mv --force *.owl ${Ontology_dir} "
+           // sh "mv --force *.owl ${Ontology_dir} "
             def myontologies = ontologies()
             for (int i = 0; i < myontologies.size(); ++i) {
                 echo "Testing the ${myontologies[i]} "
