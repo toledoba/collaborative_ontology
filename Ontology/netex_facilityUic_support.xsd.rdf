@@ -1,0 +1,1970 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dtype="http://www.srdc.com.tr/ontmalizer#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.netex.org.uk/netex#"
+    xmlns="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#derivedFromVersionRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#version"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#lastUpdated"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionStatusEnumeration_versioned">
+    <dtype:hasValue>versioned</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#shortDatatype">
+    <owl:equivalentClass rdf:nodeID="A7"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#TypeOfValueIdTypeDatatype">
+    <rdfs:comment>Type for identifier of a TYPE OF VALUE.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A8"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#derivedFromObjectRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#NOTATIONDatatype">
+    <owl:equivalentClass rdf:nodeID="A12"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#NOTATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#MandatoryEnumeration_required">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">required</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#MandatoryEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#classRefs_RelStructure">
+    <rdfs:comment>Type for a list of Classes.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A15"/>
+    <rdfs:subClassOf rdf:nodeID="A16"/>
+    <rdfs:subClassOf rdf:nodeID="A17"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#oneToManyRelationshipStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#baseVersionRef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#RelationshipIdDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#id"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationEnumeration_unchanged">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">unchanged</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#compatibleWithVersionFrameVersionRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ClassInFrameRefStructure"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ClassInFrameRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationEnumerationDatatype">
+    <rdfs:comment>Classification of modification as addition, deletion or revision. Enumerated value.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A21"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration"/>
+    <owl:equivalentClass rdf:nodeID="A22"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#tokenDatatype">
+    <owl:equivalentClass rdf:nodeID="A24"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionStatusEnumeration_other">
+    <dtype:hasValue>other</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#changed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#nameOfRefClass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#IDREFDatatype">
+    <owl:equivalentClass rdf:nodeID="A26"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#IDREF"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ContainmentEnumeration_both">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">both</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#TypeOfValueRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#TypeOfValueRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <rdf:rest rdf:nodeID="A31"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#VersionTypeEnumeration_point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#MandatoryEnumeration_notAllowed">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">notAllowed</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#MandatoryEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationEnumeration_new">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">new</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#NMTOKENSDatatype">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <rdf:rest rdf:nodeID="A35"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration_byReference"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedShortDatatype">
+    <owl:equivalentClass rdf:nodeID="A36"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyURIDatatype">
+    <owl:equivalentClass rdf:nodeID="A38"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#base64BinaryDatatype">
+    <owl:equivalentClass rdf:nodeID="A39"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#MandatoryEnumeration_optional">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">optional</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#MandatoryEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ClassRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationSetEnumeration_changesOnly">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">changesOnly</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#DataSourceRefStructure">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRef"/>
+    <rdfs:comment>Type for a Reference  to a DATA SOURCE.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A40"/>
+    <rdfs:subClassOf rdf:nodeID="A41"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#RelationshipIdDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#nameOfClass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumeration_changesOnly"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A44">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#QName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A46">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ref">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationEnumeration_delete">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">delete</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A47">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A48">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A49">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_delta"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_unchanged"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_revise"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_delete"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_new"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#longDatatype">
+    <owl:equivalentClass rdf:nodeID="A50"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonPositiveIntegerDatatype">
+    <owl:equivalentClass rdf:nodeID="A51"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A52">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#hexBinaryDatatype">
+    <owl:equivalentClass rdf:nodeID="A23"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A53">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#created"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A54">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationEnumeration_revise">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">revise</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A55">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#fileName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_trainWithTcvAndMarketPrice">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">trainWithTcvAndMarketPrice</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A56">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#VersionRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicRateTypeEnumeration_discountInTrainOtherThanTGV">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">discountInTrainOtherThanTGV</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#objectRefs_RelStructure">
+    <rdfs:comment>Type for a list of references to an  NeTEx Object.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A57"/>
+    <rdfs:subClassOf rdf:nodeID="A47"/>
+    <rdfs:subClassOf rdf:nodeID="A58"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#oneToManyRelationshipStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_members">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">members</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A59">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#classRefType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A60">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A61">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#DataSourceIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ContainmentEnumeration_byReference">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">byReference</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#VersionTypeEnumeration_baseline"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#CodespaceRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#CodespaceRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionOfObjectRefStructure">
+    <rdfs:subClassOf rdf:nodeID="A25"/>
+    <rdfs:subClassOf rdf:nodeID="A28"/>
+    <rdfs:subClassOf rdf:nodeID="A62"/>
+    <rdfs:subClassOf rdf:nodeID="A63"/>
+    <rdfs:subClassOf rdf:nodeID="A64"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ReferenceModificationDetailsGroup"/>
+    <rdfs:subClassOf rdf:nodeID="A53"/>
+    <rdfs:subClassOf rdf:nodeID="A65"/>
+    <rdfs:subClassOf rdf:nodeID="A66"/>
+    <rdfs:subClassOf rdf:nodeID="A67"/>
+    <rdfs:subClassOf rdf:nodeID="A68"/>
+    <rdfs:subClassOf rdf:nodeID="A69"/>
+    <rdfs:subClassOf rdf:nodeID="A70"/>
+    <rdfs:subClassOf rdf:nodeID="A71"/>
+    <rdfs:subClassOf rdf:nodeID="A72"/>
+    <rdfs:subClassOf rdf:nodeID="A73"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="A74"/>
+    <rdfs:comment>Type for a versioned reference to a NeTEx Object.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A75">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A76">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modification"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#IDREFSDatatype">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A69">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#version"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A77">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#textContent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A78">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A79">
+    <rdf:rest rdf:nodeID="A80"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#MandatoryEnumeration_optional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#containmentAggregationStructure">
+    <rdfs:comment>Type for an Implementation of an aggregate  relationship by reference or value, where the contained element or reference  is included in the XML as  a child of the parent.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A81"/>
+    <rdfs:subClassOf rdf:nodeID="A82"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#relationshipStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A83">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#baseVersionRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#textContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A80">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#MandatoryEnumeration_notAllowed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A84">
+    <rdf:rest rdf:nodeID="A85"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_new"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A86">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#TypeOfValueIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A70">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A87">
+    <rdf:rest rdf:nodeID="A88"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_eastWestTariff"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A89">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#DataSourceIdTypeDatatype">
+    <rdfs:comment>Type for identifier of a DATA SOURCE.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A86"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#TypeOfValueIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#id">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationSetEnumeration_all">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">all</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A90">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#lastUpdated"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A91">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#version"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#doubleDatatype">
+    <owl:equivalentClass rdf:nodeID="A13"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#NMTOKENDatatype">
+    <owl:equivalentClass rdf:nodeID="A92"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A93">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#TypeOfValueIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#classRefType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A94">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#derivedFromVersionRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_all"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_memberReferences"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_members"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A95">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#baseVersionRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A96">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#id"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A97">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#fileName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A73">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#version"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#ENTITIESDatatype">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anySimpleTypeDatatype">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#StatusEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration_other"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration_inactive"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration_active"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A51">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A98">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A99">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2147483647</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ClassInFrameRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeIntegerDatatype">
+    <owl:equivalentClass rdf:nodeID="A100"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A101">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration_other"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ValueSetIdTypeDatatype">
+    <rdfs:comment>Type for identifier of a VALUE SET.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A102"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedLongDatatype">
+    <owl:equivalentClass rdf:nodeID="A103"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A104">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#CodespaceIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A105">
+    <rdf:rest rdf:nodeID="A106"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_unchanged"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#oneToManyRelationshipStructure">
+    <rdfs:comment>Type for an Implementation of a one to many relationship . A one to many relationship from the source (one) to the target (many)</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A107"/>
+    <rdfs:subClassOf rdf:nodeID="A108"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#relationshipStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A109">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#version"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYearDatatype">
+    <owl:equivalentClass rdf:nodeID="A110"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#order">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A111">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#created"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.srdc.com.tr/ontmalizer#EnumeratedValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A112">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ContainmentEnumeration_inline">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">inline</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A113">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#changed"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionIdTypeDatatype">
+    <rdfs:comment>A revision identifier (e.g. a number) that should be updated (e.g. increased) each time the unit that is refers to is modified.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A46"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#normalizedStringDatatype">
+    <owl:equivalentClass rdf:nodeID="A60"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ContainmentEnumeration_byVersionedReference">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">byVersionedReference</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicRateTypeEnumeration_noPublishedTariff">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">noPublishedTariff</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#StatusEnumerationDatatype">
+    <rdfs:comment>Indicates whether the ENTITY this annotates is available for use. Use of this attribute allows entities to be retired without deleting the details from the dataset.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A114"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration"/>
+    <owl:equivalentClass rdf:nodeID="A115"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#derivedFromObjectRef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A116">
+    <rdf:rest rdf:nodeID="A117"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_memberReferences"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#modificationSet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionTypeEnumeration_baseline">
+    <dtype:hasValue>baseline</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#VersionTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A118">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A92">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A119">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A120">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#NCName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A103">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_noPublishedTariff">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">noPublishedTariff</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A71">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassInFrameRefStructure">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ClassRef"/>
+    <rdfs:comment>Type for a reference to the Class of a ENTITY for use in filters.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A121"/>
+    <rdfs:subClassOf rdf:nodeID="A59"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ClassRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationSetEnumeration">
+    <rdfs:comment>Classification of modification as addition, deletion, revision or delta only. Enumerated value.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A122"/>
+    <rdfs:subClassOf rdf:nodeID="A123"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A124"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A58">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRefStructure"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A125">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A117">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_all"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A72">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#NameOfClassDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#nameOfRefClass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#StatusEnumeration_active">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">active</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A126">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassRefTypeEnumeration">
+    <rdfs:comment>Allowed values for nature of reference.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A127"/>
+    <rdfs:subClassOf rdf:nodeID="A32"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A128"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#frameContainmentStructure">
+    <rdfs:comment>Type for an implementation of a frame containment relationship  (ENTITY IN FRAME IN VERSION) A one to many relationship from the containing parent (one) to the contained child (many)</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#relationshipStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A121">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumerationDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#classRefType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A129">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#nameOfClass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ExternalObjectRefStructure">
+    <rdfs:comment>Type for a reference.to an external object.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A130"/>
+    <rdfs:subClassOf rdf:nodeID="A27"/>
+    <rdfs:subClassOf rdf:nodeID="A89"/>
+    <rdfs:subClassOf rdf:nodeID="A131"/>
+    <rdfs:subClassOf rdf:nodeID="A132"/>
+    <rdfs:subClassOf rdf:nodeID="A75"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A88">
+    <rdf:rest rdf:nodeID="A133"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_trainWithTcvAndMarketPrice"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A134">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A135">
+    <rdf:rest rdf:nodeID="A136"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration_active"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A137">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A138">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#compatibleWithVersionFrameVersionRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A63">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ModificationEnumerationDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modification"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A139">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#positiveIntegerDatatype">
+    <owl:equivalentClass rdf:nodeID="A1"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A140">
+    <rdf:rest rdf:nodeID="A141"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_normal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A110">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ClassRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integerDatatype">
+    <owl:equivalentClass rdf:nodeID="A142"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A143">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedByteDatatype">
+    <owl:equivalentClass rdf:nodeID="A98"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A144">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A145">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A146">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#lang"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A147">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#order"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_tariffCommunVoyageurs">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">tariffCommunVoyageurs</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gMonthDatatype">
+    <owl:equivalentClass rdf:nodeID="A148"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A122">
+    <rdf:rest rdf:nodeID="A43"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumeration_all"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionTypeEnumerationDatatype">
+    <owl:equivalentClass rdf:nodeID="A56"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A149">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#gMonthDay"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A150">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A151">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ModificationEnumerationDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modification"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A152">
+    <rdf:rest rdf:nodeID="A87"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_allIInclusivePrice"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A153">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A154">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A155">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A156">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ModificationEnumerationDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modification"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#negativeIntegerDatatype">
+    <owl:equivalentClass rdf:nodeID="A157"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#negativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A158">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#changed"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#lang">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#booleanDatatype">
+    <owl:equivalentClass rdf:nodeID="A10"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A159">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A160">
+    <rdf:rest rdf:nodeID="A34"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration_inline"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicRateTypeEnumerationDatatype">
+    <owl:equivalentClass rdf:nodeID="A134"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A161">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A162">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A102">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A141">
+    <rdf:rest rdf:nodeID="A163"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_discountInTrainOtherThanTGV"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A100">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A164">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#RelationshipIdDatatype">
+    <rdfs:comment>Type for Identifier of a relationship.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A165"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#NameOfClassDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A166">
+    <rdf:rest rdf:nodeID="A79"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#MandatoryEnumeration_required"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#strictContainmentAggregationStructure">
+    <rdfs:comment>Type for an Implementation of a strict aggregate  relationship by value, where the contained element is a child of the parent. A one to many relationship from the source, the containing parent, to the child instance.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#relationshipStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A167">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#MandatoryEnumerationDatatype">
+    <owl:equivalentClass rdf:nodeID="A168"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A169">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#status"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A108">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modificationSet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A170">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/2001/XMLSchema#textContent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicRateTypeEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_noPublishedTariff"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_supplement"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_specialFare"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_discountInTrainOtherThanTGV"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_normal"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A171">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A172">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.w3.org/2001/XMLSchema#textContent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#SimpleObjectRefStructure">
+    <rdfs:comment>Type for a simple object reference.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A125"/>
+    <rdfs:subClassOf rdf:nodeID="A48"/>
+    <rdfs:subClassOf rdf:nodeID="A173"/>
+    <rdfs:subClassOf rdf:nodeID="A153"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.srdc.com.tr/ontmalizer#Enumeration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassRefTypeEnumerationDatatype">
+    <rdfs:comment>Allowed values for nature of reference.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A29"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration"/>
+    <owl:equivalentClass rdf:nodeID="A174"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A175">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A176">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#changed"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A177">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ClassInFrameRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A178">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#order"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#RelationshipRefStructure">
+    <rdfs:comment>Type for a reference to a Relationship.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A42"/>
+    <rdfs:subClassOf rdf:nodeID="A129"/>
+    <rdfs:subClassOf rdf:nodeID="A179"/>
+    <rdfs:subClassOf rdf:nodeID="A119"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYearMonthDatatype">
+    <owl:equivalentClass rdf:nodeID="A180"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A181">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#StatusEnumerationDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#status"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#MandatoryEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#MandatoryEnumeration_notAllowed"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#MandatoryEnumeration_optional"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#MandatoryEnumeration_required"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A114">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#NCNameDatatype">
+    <owl:equivalentClass rdf:nodeID="A120"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#NCName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#MandatoryEnumeration">
+    <rdfs:comment>Allowed values for Mandatory.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A166"/>
+    <rdfs:subClassOf rdf:nodeID="A49"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A182"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A136">
+    <rdf:rest rdf:nodeID="A183"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration_inactive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#ENTITYDatatype">
+    <owl:equivalentClass rdf:nodeID="A184"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#ENTITY"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A81">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumerationDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modificationSet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.srdc.com.tr/ontmalizer#hasValue">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ClassRefStructure"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ClassRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateDatatype">
+    <owl:equivalentClass rdf:nodeID="A139"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_memberReferences">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">memberReferences</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionStatusEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration_other"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration_deprecated"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration_versioned"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration_draft"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gMonthDayDatatype">
+    <owl:equivalentClass rdf:nodeID="A149"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gMonthDay"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A185">
+    <rdf:rest rdf:nodeID="A186"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration_versioned"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ObjectIdTypeDatatype">
+    <rdfs:comment>Abstract Type for identifier of a NeTEx Object.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A33"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A115">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#version">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassInFrameRefs_RelStructure">
+    <rdfs:comment>Type for a list of Class Filter references.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A99"/>
+    <rdfs:subClassOf rdf:nodeID="A177"/>
+    <rdfs:subClassOf rdf:nodeID="A20"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#oneToManyRelationshipStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A187">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#textContent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationEnumeration_delta">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">delta</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#NameDatatype">
+    <owl:equivalentClass rdf:nodeID="A143"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionStatusEnumeration_draft">
+    <dtype:hasValue>draft</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationSetEnumerationDatatype">
+    <rdfs:comment>Classification of modification as addition, deletion, revision or delta only. Enumerated value.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A161"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumeration"/>
+    <owl:equivalentClass rdf:nodeID="A164"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionTypeEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#VersionTypeEnumeration_baseline"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#VersionTypeEnumeration_point"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassRefStructure">
+    <rdfs:comment>Type for a reference to the Class of a ENTITY.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A188"/>
+    <rdfs:subClassOf rdf:nodeID="A189"/>
+    <rdfs:subClassOf rdf:nodeID="A52"/>
+    <rdfs:subClassOf rdf:nodeID="A61"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A190">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A163">
+    <rdf:rest rdf:nodeID="A191"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_specialFare"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A107">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumerationDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modificationSet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A186">
+    <rdf:rest rdf:nodeID="A101"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration_deprecated"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#fileName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A191">
+    <rdf:rest rdf:nodeID="A192"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_supplement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#status">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#compatibleWithVersionFrameVersionRef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A193">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#changed"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A182">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A194">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A195">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#version"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A196">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#StatusEnumeration_other">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">other</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A74">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#changed"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ContainmentEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration_both"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration_byVersionedReference"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration_byReference"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration_inline"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#intDatatype">
+    <owl:equivalentClass rdf:nodeID="A175"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration">
+    <rdfs:comment>UIC Product Characteristic UIC 7139 Code list.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A197"/>
+    <rdfs:subClassOf rdf:nodeID="A5"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A154"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ContainmentEnumeration">
+    <rdfs:comment>Classification of containment.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A160"/>
+    <rdfs:subClassOf rdf:nodeID="A78"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A190"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionStatusEnumeration_deprecated">
+    <dtype:hasValue>deprecated</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionStatusEnumeration">
+    <rdfs:comment>Allowed values for Statuses of VERSION.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A198"/>
+    <rdfs:subClassOf rdf:nodeID="A137"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A44"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A123">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A199">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#lang"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A62">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#created"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionTypeEnumeration">
+    <rdfs:comment>Allowed values for Types of VERSION.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A30"/>
+    <rdfs:subClassOf rdf:nodeID="A167"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A112"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A148">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#languageDatatype">
+    <owl:equivalentClass rdf:nodeID="A6"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <rdf:rest rdf:nodeID="A200"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration_byVersionedReference"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionOfObjectRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A201">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#version"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicRateTypeEnumeration">
+    <rdfs:comment>UIC Rate Type UIC 5263Code list.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A140"/>
+    <rdfs:subClassOf rdf:nodeID="A9"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A202"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#relationshipStructure">
+    <rdfs:comment>Abstract Type for a serialisation of a NeTEx relationship.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A18"/>
+    <rdfs:subClassOf rdf:nodeID="A96"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#NameOfClassDatatype">
+    <rdfs:comment>Type for name of a class of an ENTITY.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A203"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A204">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#created"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A205">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#StatusEnumeration">
+    <rdfs:comment>Indicates whether the ENTITY this annotates is available for use. Use of this attribute allows entities to be retired without deleting the details from the dataset.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A135"/>
+    <rdfs:subClassOf rdf:nodeID="A14"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A206"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#textContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_allIInclusivePrice">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">allIInclusivePrice</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationSetEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumeration_changesOnly"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#ModificationSetEnumeration_all"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A68">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#changed"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#SimpleObjectRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#SimpleObjectRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#DocumentModificationDetailsGroup">
+    <rdfs:subClassOf rdf:nodeID="A91"/>
+    <rdfs:subClassOf rdf:nodeID="A111"/>
+    <rdfs:subClassOf rdf:nodeID="A207"/>
+    <rdfs:subClassOf rdf:nodeID="A146"/>
+    <rdfs:subClassOf rdf:nodeID="A195"/>
+    <rdfs:subClassOf rdf:nodeID="A3"/>
+    <rdfs:subClassOf rdf:nodeID="A55"/>
+    <rdfs:subClassOf rdf:nodeID="A97"/>
+    <rdfs:subClassOf rdf:nodeID="A199"/>
+    <rdfs:subClassOf rdf:nodeID="A156"/>
+    <rdfs:subClassOf rdf:nodeID="A90"/>
+    <rdfs:subClassOf rdf:nodeID="A95"/>
+    <rdfs:subClassOf rdf:nodeID="A83"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="A76"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A208">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#created"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#byteDatatype">
+    <owl:equivalentClass rdf:nodeID="A209"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#OrderedVersionOfObjectRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#OrderedVersionOfObjectRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A157">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#negativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#StatusEnumeration_inactive">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#NMTOKEN">inactive</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyType">
+    <rdfs:subClassOf rdf:nodeID="A77"/>
+    <rdfs:subClassOf rdf:nodeID="A187"/>
+    <rdfs:subClassOf rdf:nodeID="A172"/>
+    <rdfs:subClassOf rdf:nodeID="A170"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A210">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionRefStructure">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRef"/>
+    <rdfs:comment>Type for a VERSION reference.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A211"/>
+    <rdfs:subClassOf rdf:nodeID="A150"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#TypeOfEntityRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#TypeOfValueRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A212">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#version"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#BasicModificationDetailsGroup">
+    <rdfs:subClassOf rdf:nodeID="A11"/>
+    <rdfs:subClassOf rdf:nodeID="A208"/>
+    <rdfs:subClassOf rdf:nodeID="A213"/>
+    <rdfs:subClassOf rdf:nodeID="A0"/>
+    <rdfs:subClassOf rdf:nodeID="A19"/>
+    <rdfs:subClassOf rdf:nodeID="A193"/>
+    <rdfs:subClassOf rdf:nodeID="A94"/>
+    <rdfs:subClassOf rdf:nodeID="A151"/>
+    <rdfs:subClassOf rdf:nodeID="A212"/>
+    <rdfs:subClassOf rdf:nodeID="A214"/>
+    <rdfs:subClassOf rdf:nodeID="A138"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="A109"/>
+    <rdfs:subClassOf rdf:nodeID="A169"/>
+    <rdfs:subClassOf rdf:nodeID="A215"/>
+    <rdfs:subClassOf rdf:nodeID="A181"/>
+    <rdfs:subClassOf rdf:nodeID="A158"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A57">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2147483647</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ModificationEnumeration">
+    <rdfs:comment>Classification of modification as addition, deletion or revision. Enumerated value.</rdfs:comment>
+    <owl:oneOf rdf:nodeID="A84"/>
+    <rdfs:subClassOf rdf:nodeID="A210"/>
+    <rdfs:subClassOf rdf:resource="http://www.srdc.com.tr/ontmalizer#EnumeratedValue"/>
+    <rdfs:subClassOf rdf:nodeID="A37"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A214">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#derivedFromObjectRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A132">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#derivedFromVersionRef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#modification">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#lastUpdated">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#durationDatatype">
+    <owl:equivalentClass rdf:nodeID="A144"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A198">
+    <rdf:rest rdf:nodeID="A185"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#VersionStatusEnumeration_draft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#IDDatatype">
+    <owl:equivalentClass rdf:nodeID="A216"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#ID"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A184">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#ENTITY"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A142">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A217">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#created"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#versionRef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A206">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_eastWestTariff">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">eastWestTariff</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A211">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassInFrameRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ClassInFrameRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_Enumeration">
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_noPublishedTariff"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_trainWithTcvAndMarketPrice"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_eastWestTariff"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_allIInclusivePrice"/>
+    <dtype:hasValue rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_tariffCommunVoyageurs"/>
+    <rdf:type rdf:resource="http://www.srdc.com.tr/ontmalizer#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionTypeEnumeration_point">
+    <dtype:hasValue>point</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#VersionTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A168">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A207">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#created"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A218">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modification"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A165">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#NameOfClassDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A128">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicRateTypeEnumeration_normal">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">normal</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A50">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedIntDatatype">
+    <owl:equivalentClass rdf:nodeID="A126"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A213">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#created"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A192">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration_noPublishedTariff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#floatDatatype">
+    <owl:equivalentClass rdf:nodeID="A118"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#DataSourceRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#DataSourceRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A130">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ref"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A203">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <owl:onDatatype rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A188">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#NameOfClassDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#nameOfClass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A189">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#nameOfClass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A66">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#versionRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A82">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modificationSet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A219">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#CodespaceRefStructure">
+    <rdfs:comment>Type for a reference to a CODESPACE.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A104"/>
+    <rdfs:subClassOf rdf:nodeID="A218"/>
+    <rdfs:subClassOf rdf:nodeID="A159"/>
+    <rdfs:subClassOf rdf:nodeID="A54"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A200">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ContainmentEnumeration_both"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_all">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">all</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A67">
+    <owl:allValuesFrom rdf:resource="http://www.netex.org.uk/netex#VersionIdTypeDatatype"/>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#versionRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A179">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#OrderedVersionOfObjectRefStructure">
+    <rdfs:comment>Type for a versioned reference to a NeTEx Object.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A178"/>
+    <rdfs:subClassOf rdf:nodeID="A147"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ContainmentEnumerationDatatype">
+    <owl:equivalentClass rdf:nodeID="A155"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A173">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A220">
+    <rdf:rest rdf:nodeID="A105"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_revise"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#VersionStatusEnumerationDatatype">
+    <owl:equivalentClass rdf:nodeID="A205"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#TypeOfValueRefStructure">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#TypeOfValueRef"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRef"/>
+    <rdfs:comment>Type for a reference to a TYPE OF VALUE.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="A93"/>
+    <rdfs:subClassOf rdf:nodeID="A196"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#VersionOfObjectRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#IDREF"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gDayDatatype">
+    <owl:equivalentClass rdf:nodeID="A219"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A215">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#modification"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A216">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#ID"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTimeDatatype">
+    <owl:equivalentClass rdf:nodeID="A162"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A124">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A127">
+    <rdf:rest rdf:nodeID="A116"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ClassRefTypeEnumeration_members"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A174">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2147483647</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#ClassRef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A202">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.srdc.com.tr/ontmalizer#hasValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#nameOfClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A197">
+    <rdf:rest rdf:nodeID="A152"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_tariffCommunVoyageurs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#nameOfRefClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#QNameDatatype">
+    <owl:equivalentClass rdf:nodeID="A45"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#QName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A131">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:maxCardinality>
+    <owl:onProperty rdf:resource="http://www.netex.org.uk/netex#type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A221">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimalDatatype">
+    <owl:equivalentClass rdf:nodeID="A221"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#RelationshipRef">
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#RelationshipRefStructure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicRateTypeEnumeration_specialFare">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">specialFare</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#ReferenceModificationDetailsGroup">
+    <rdfs:subClassOf rdf:nodeID="A201"/>
+    <rdfs:subClassOf rdf:nodeID="A2"/>
+    <rdfs:subClassOf rdf:nodeID="A176"/>
+    <rdfs:subClassOf rdf:nodeID="A113"/>
+    <rdfs:subClassOf rdf:nodeID="A204"/>
+    <rdfs:subClassOf rdf:nodeID="A217"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicRateTypeEnumeration_supplement">
+    <dtype:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#normalizedString">supplement</dtype:hasValue>
+    <rdf:type rdf:resource="http://www.netex.org.uk/netex#UicRateTypeEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#created">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A209">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A180">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#UicProductCharacteristicEnumerationDatatype">
+    <owl:equivalentClass rdf:nodeID="A145"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#timeDatatype">
+    <owl:equivalentClass rdf:nodeID="A171"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A133">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#UicProductCharacteristicEnumeration_noPublishedTariff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.netex.org.uk/netex#CodespaceIdTypeDatatype">
+    <rdfs:comment>Type for identifier of a CODESPACE.</rdfs:comment>
+    <owl:equivalentClass rdf:nodeID="A4"/>
+    <rdfs:subClassOf rdf:resource="http://www.netex.org.uk/netex#ObjectIdTypeDatatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#stringDatatype">
+    <owl:equivalentClass rdf:nodeID="A194"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A106">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_delta"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A85">
+    <rdf:rest rdf:nodeID="A220"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#ModificationEnumeration_delete"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A183">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.netex.org.uk/netex#StatusEnumeration_other"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#NOTATION"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+</rdf:RDF>
