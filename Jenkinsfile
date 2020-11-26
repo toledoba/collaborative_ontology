@@ -31,7 +31,7 @@ pipeline {
       VOCABLITE    = '1.0.2'
       Ontology_dir  = 'Ontology'  // -- name of the directory where the ontology is located
       Ontology_path     = 'Ontology/alo.owl' // -- path where the ontology is located
-
+      listOntologies = ['openADRontology.owl', 'empleo.owl', 'gsso.owl']
   }
 
   stages {
@@ -82,9 +82,11 @@ pipeline {
             echo "Building Widoco version ${WIDOCO}"
           }
         }
-         def files = findFiles(glob: 'Ontology_dir/*')
-         echo $files
-         sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${Ontology_path} -outFolder Documents  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
+        listOntologies.each { item ->
+        sh "echo Hello ${item}"
+        }
+        // sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${Ontology_path} -outFolder Documents  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
+         
       }
     }
     // Parameters needed:
