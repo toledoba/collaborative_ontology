@@ -62,8 +62,8 @@ pipeline {
         echo "Clean Workspace"
         
         //cleanWs()
-        sh "wget https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl -P ${Ontology_dir}"
-        sh "wget https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl -P ${Ontology_dir}"
+        sh "wget -nc https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl -P ${Ontology_dir}"
+        sh "wget -nc https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl -P ${Ontology_dir}"
         //sh "wget https://raw.githubusercontent.com/ahmad88me/GSSO/master/gsso.owl"
         //sh "mv *.owl ${Ontology_dir}/ "
         /*script{
@@ -161,8 +161,8 @@ pipeline {
 def ontologies() {
   
   def foo = sh(script: 'ls -1 Ontology', returnStdout: true)
-  //println(foo)
-  echo  foo.getClass()
+  println(foo+"**********")
+  
   return ["openADRontology.owl", "empleo.owl","alo.owl"]
 }
 
