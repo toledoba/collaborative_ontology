@@ -31,7 +31,7 @@ pipeline {
       VOCABLITE    = '1.0.2'
       Ontology_dir  = 'Ontology'  // -- name of the directory where the ontology is located
       Ontology_path     = 'Ontology/alo.owl' // -- path where the ontology is located
-      istOntologies = ["openADRontology.owl", "empleo.owl", "gsso.owl"]
+      istOntologies = ontologies()
   }
 
   stages {
@@ -145,4 +145,7 @@ pipeline {
   }
 }
 
+def ontologies() {
+    return ["openADRontology.owl", "empleo.owl", "gsso.owl"]
+}
 
