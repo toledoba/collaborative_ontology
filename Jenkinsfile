@@ -159,6 +159,8 @@ pipeline {
 }
 
 def ontologies() {
-    return ["openADRontology.owl", "empleo.owl","alo.owl"]
+  files = findFiles(glob: 'Ontology/*')
+  echo "****** ${files}"
+  return ["openADRontology.owl", "empleo.owl","alo.owl"]
 }
 
