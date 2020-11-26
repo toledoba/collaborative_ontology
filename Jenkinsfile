@@ -90,7 +90,8 @@ pipeline {
           }
         }
         script{
-            sh "mv -f *.owl ${Ontology_dir} "
+
+            sh "mv --force *.owl ${Ontology_dir} "
             def myontologies = ontologies()
             for (int i = 0; i < myontologies.size(); ++i) {
                 echo "Testing the ${myontologies[i]} "
