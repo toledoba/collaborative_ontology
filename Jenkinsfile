@@ -159,8 +159,9 @@ pipeline {
 }
 
 def ontologies() {
-  files = findFiles(script: 'ls -1 Ontology', returnStdout: true).split()
-  echo "****** ${files}"
+  
+  def foo = sh(script: 'pwd', returnStdout: true)
+  println(foo)
   return ["openADRontology.owl", "empleo.owl","alo.owl"]
 }
 
