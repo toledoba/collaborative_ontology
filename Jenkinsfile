@@ -61,7 +61,7 @@ pipeline {
         // -- Clean Workspace
         echo "Clean Workspace"
         
-        cleanWs()
+        //cleanWs()
         //sh "wget -nc https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl -P ${Ontology_dir}"
         //sh "wget -nc https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl -P ${Ontology_dir}"
         //sh "wget https://raw.githubusercontent.com/ahmad88me/GSSO/master/gsso.owl"
