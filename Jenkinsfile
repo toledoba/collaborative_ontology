@@ -155,6 +155,6 @@ pipeline {
 }
 
 def ontologies() {
-    return ["openADRontology.owl", "empleo.owl", "alo.owl"]
+    return ["openADRontology.owl", "empleo.owl"]
 }
 
