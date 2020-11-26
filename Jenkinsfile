@@ -31,7 +31,6 @@ pipeline {
       VOCABLITE    = '1.0.2'
       Ontology_dir  = 'Ontology'  // -- name of the directory where the ontology is located
       Ontology_path     = 'Ontology/alo.owl' // -- path where the ontology is located
-      listOntologies = ontologies()
   }
 
   stages {
@@ -83,10 +82,10 @@ pipeline {
           }
         }
         script{
-            def myontologies = listOntologies
+            def myontologies = ontologies()
             for (int i = 0; i < myontologies.size(); ++i) {
                 echo "Testing the ${myontologies[i]} "
-                sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile Ontology/${myontologies[i]} -outFolder Documents${myontologies[i]}  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
+                //sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile Ontology/${myontologies[i]} -outFolder Documents${myontologies[i]}  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
             }
         }
         
