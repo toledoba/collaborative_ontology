@@ -110,7 +110,7 @@ pipeline {
           }else{
              echo "Building AR2Tool version ${AR2TOOL}"
           }
-          	ar2dtool-0.1.jar
+          
           //java -jar ar2dtool.jar -i PathToInputRdfFile -o FileToOutputFile -t OutputFileType -c PathToConfFile -GENERATE_FLAGS [-d]
           sh "java -jar ar2dtool-0.1.jar -i ${Ontology_path} -o ar2dtoolOutputFile"
         }
