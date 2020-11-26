@@ -82,11 +82,12 @@ pipeline {
             echo "Building Widoco version ${WIDOCO}"
           }
         }
-        /*script{
-          listOntologies.each { item ->
-            sh "echo Hello ${item}"
-          }
-        }*/
+        script{
+            def browsers = ['chrome', 'firefox']
+            for (int i = 0; i < browsers.size(); ++i) {
+                echo "Testing the ${browsers[i]} browser"
+            }
+        }
         
          sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${Ontology_path} -outFolder Documents  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
          
