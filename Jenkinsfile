@@ -60,6 +60,7 @@ pipeline {
         }
         // -- Clean Workspace
         echo "Clean Workspace"
+        
         //cleanWs()
         sh "wget https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl"
         sh "wget https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl"
@@ -149,6 +150,7 @@ pipeline {
              echo "Building VocabLite version ${VOCABLITE}"
           }
             sh "java -jar vocabLite-${VOCABLITE}-jar-with-dependencies.jar -i ${Ontology_dir} -o vocabLite"
+            sh "rm *.jar"
         }
       }
     }
