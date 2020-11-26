@@ -81,13 +81,14 @@ pipeline {
           } else {
             echo "Building Widoco version ${WIDOCO}"
           }
+        }
+        script{
           listOntologies.each { item ->
             sh "echo Hello ${item}"
           }
         }
         
-        
-        // sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${Ontology_path} -outFolder Documents  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
+         sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${Ontology_path} -outFolder Documents  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
          
       }
     }
