@@ -64,7 +64,7 @@ pipeline {
         sh "wget https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl"
         sh "wget https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl"
         //sh "wget https://raw.githubusercontent.com/ahmad88me/GSSO/master/gsso.owl"
-        sh "mv *.owl ${Ontology_dir} "
+        //sh "mv *.owl ${Ontology_dir} "
       }
     }
     // Parameters needed:
@@ -85,6 +85,7 @@ pipeline {
             def myontologies = ontologies()
             for (int i = 0; i < myontologies.size(); ++i) {
                 echo "Testing the ${myontologies[i]} "
+                sh "mv ${myontologies[i]} ${Ontology_dir}"
                 sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile Ontology/${myontologies[i]} -outFolder Documents-${myontologies[i]}  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
             }
         }
