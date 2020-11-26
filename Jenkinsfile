@@ -160,9 +160,11 @@ pipeline {
 
 def ontologies() {
   
-  def foo = sh(script: 'ls -1 Ontology', returnStdout: true)
-  println("*******"+foo+"**********")
-  
+  //def foo = sh(script: 'ls -1 Ontology', returnStdout: true)
+  //println("*******"+foo+"**********")
+  sh '''#!/bin/bash
+                 echo "hello world" 
+         '''
   return ["openADRontology.owl", "empleo.owl","alo.owl"]
 }
 
