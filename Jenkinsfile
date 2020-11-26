@@ -159,7 +159,6 @@ pipeline {
 }
 
 def ontologies() {
-  //return ["openADRontology.owl", "empleo.owl","alo.owl"]
   return ["alo.owl",
 "netex_accounting_version.xsd.rdf",
 "netex_address_support.xsd.rdf",
