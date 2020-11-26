@@ -82,6 +82,8 @@ pipeline {
             echo "Building Widoco version ${WIDOCO}"
           }
         }
+         files = findFiles(glob: 'Ontology_dir/*')
+         echo $files
          sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile ${Ontology_path} -outFolder Documents  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
       }
     }
