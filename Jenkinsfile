@@ -88,6 +88,7 @@ pipeline {
     // ------------------------------------
     stage('Oops!') {
       steps {
+          sh "pwd"
           //for this test it's integrated with widoco
           //sh './oops.sh'
       }
