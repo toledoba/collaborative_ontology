@@ -64,14 +64,14 @@ pipeline {
         sh "wget https://raw.githubusercontent.com/albaizq/OpenADRontology/master/ontology/openADRontology.owl"
         sh "wget https://raw.githubusercontent.com/opencitydata/vocab-sector-publico-empleo/master/Ontology/empleo.owl"
         //sh "wget https://raw.githubusercontent.com/ahmad88me/GSSO/master/gsso.owl"
-        //sh "mv *.owl ${Ontology_dir} "
-        script{
+        sh "mv *.owl ${Ontology_dir} "
+        /*script{
           def myontologies = ontologies()
           for (int i = 0; i < myontologies.size(); ++i) {
               echo "Testing the ${myontologies[i]} "
               sh "mv ${myontologies[i]} ${Ontology_dir}"
           }
-        }
+        }*/
       }
     }
     // Parameters needed:
@@ -155,6 +155,6 @@ pipeline {
 }
 
 def ontologies() {
-    return ["openADRontology.owl", "empleo.owl"]
+    return ["openADRontology.owl", "empleo.owl","alo.owl"]
 }
 
