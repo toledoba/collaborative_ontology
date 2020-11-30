@@ -92,10 +92,10 @@ pipeline {
         script{
 
            // sh "mv --force *.owl ${Ontology_dir} "
+            sh "echo 'run,elapsed_time,kernel_mode,User_mode,memory_max,memory_average,file'>>time.csv"
             def myontologies = ontologies()
             for (int i = 0; i < myontologies.size(); ++i) {
                 echo "Testing the ${myontologies[i]} "
-                sh "echo 'run,elapsed_time,kernel_mode,User_mode,memory_max,memory_average,file'>>time.csv"
                 sh " time  -f 'elapsed_time,kernel_mode,user_mode,memory_max,memory_average,file\n%e,%S,%U,%M,%K,${myontologies[i]}' -o tmp_time.csv java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile Ontology/${myontologies[i]} -outFolder Documents-${myontologies[i]}  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
                 sh "tail -1 tmp_time.csv >> time.csv"
                 sh "rm tmp_time.csv"
@@ -153,7 +153,8 @@ pipeline {
           }else{
              echo "Building VocabLite version ${VOCABLITE}"
           }
-            sh "java -jar vocabLite-${VOCABLITE}-jar-with-dependencies.jar -i ${Ontology_dir} -o vocabLite"
+            
+            sh "time  -f 'elapsed_time,kernel_mode,user_mode,memory_max,memory_average\n%e,%S,%U,%M,%K' -o tmp_time.csv java -jar vocabLite-${VOCABLITE}-jar-with-dependencies.jar -i ${Ontology_dir} -o vocabLite"
             sh "rm *.jar"
         }
       }
