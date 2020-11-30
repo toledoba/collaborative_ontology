@@ -95,7 +95,7 @@ pipeline {
             def myontologies = ontologies()
             for (int i = 0; i < myontologies.size(); ++i) {
                 echo "Testing the ${myontologies[i]} "
-                sh "java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile Ontology/${myontologies[i]} -outFolder Documents-${myontologies[i]}  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
+                sh " time  -f 'elapsed_time,kernel_mode,user_mode,memory_max,memory_average,file\n%e,%S,%U,%M,%K,${myontologies[i]}' -o time.csv java -jar widoco-${WIDOCO}-jar-with-dependencies.jar -ontFile Ontology/${myontologies[i]} -outFolder Documents-${myontologies[i]}  -oops -rewriteAll -lang en-es -webVowl -uniteSections"        
             }
         }
         
